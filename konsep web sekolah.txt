@@ -42,14 +42,6 @@ STRUKTUR DATABASE
 14 created_at		| timestamp
 15 updated_at		| datetime null
 
-# jurusan
-===========================================
-1 id			| int (11) primary key auto increment
-2 nama			| varchar (100)
-3 keterangan		| text
-  gambar		| varchar (50)
-4 created_at		| timestamp
-5 updated_at		| datetime null
 
 # informasi
 ===========================================
@@ -87,7 +79,6 @@ MENU
 
 2 Admin			: - Login
 			  - Dashboard
-			  - Data Jurusan (create, read, update, delete)
 			  - Data Galeri (create, read, update, delete)
 			  - Data Informasi (create, read, update, delete)
 			  - Identitas Sekolah (update)
